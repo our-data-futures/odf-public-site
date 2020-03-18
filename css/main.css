@@ -6,6 +6,10 @@ html {
     line-height: 1.4;
 }
 
+html, body {
+    height: 100%;
+}
+
 ::-moz-selection {
     background: #b3d4fc;
     text-shadow: none;
@@ -58,12 +62,15 @@ textarea {
 
 body {
     font: 16px/26px Helvetica, Helvetica Neue, Arial;
+    display: flex;
+    flex-direction: column;
 }
 
 .wrapper {
     width: 90%;
     margin: 0 5%;
 }
+
 
 /* ===================
     ALL: Orange Theme
@@ -72,6 +79,11 @@ body {
 .header-container {
     border-bottom: 20px solid #e44d26;
 }
+
+.main-container {
+    flex: 1 0 auto;
+}
+
 
 .footer-container,
 .main aside {
@@ -134,12 +146,13 @@ nav a:hover {
 
 .main aside {
     color: white;
-    padding: 0px 5% 10px;
+    padding: 0 5% 10px;
 }
 
-.footer-container footer {
+footer {
     color: white;
     padding: 20px 0;
+    flex-shrink: 0;
 }
 
 /* ===============
@@ -183,7 +196,6 @@ nav a:hover {
         width: 27%;
         margin: 0 1.7%;
         padding: 25px 2%;
-        margin-bottom: 0;
     }
 
     nav li:first-child a {
