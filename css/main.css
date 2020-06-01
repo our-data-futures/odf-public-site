@@ -85,7 +85,10 @@ body {
 }
 
 
-.footer-container,
+.footer-container{
+    border-top: 20px solid #006161;
+}
+
 .main aside {
 	border-radius: 10px;
     border-top: 20px solid #006161;
@@ -202,7 +205,7 @@ timeline-body {
   padding: 10px 40px;
   position: relative;
   background-color: inherit;
-  width: 50%;
+  width: 40%;
 }
 
 /* The circles on the timeline */
@@ -221,7 +224,7 @@ timeline-body {
 
 /* Place the container to the left */
 .left {
-  left: 0;
+  left: 10%;
 }
 
 /* Place the container to the right */
