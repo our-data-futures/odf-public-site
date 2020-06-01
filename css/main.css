@@ -87,6 +87,7 @@ body {
 
 .footer-container,
 .main aside {
+	border-radius: 10px;
     border-top: 20px solid #006161;
 }
 
@@ -266,7 +267,7 @@ timeline-body {
   padding: 20px 30px;
   background-color: rgba(193, 193, 193, 0.24);
   position: relative;
-  border-radius: 6px;
+  border-radius: 10px;
 }
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
