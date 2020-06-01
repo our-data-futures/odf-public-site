@@ -87,6 +87,7 @@ body {
 
 .footer-container,
 .main aside {
+	border-radius: 10px;
     border-top: 20px solid #006161;
 }
 
@@ -173,7 +174,7 @@ footer {
 
 /* Set a background color */
 timeline-body {
-  background-color: #474e5d;
+  background-color: #e7e4e4;
   font-family: Helvetica, sans-serif;
 }
 
@@ -189,7 +190,7 @@ timeline-body {
   content: '';
   position: absolute;
   width: 6px;
-  background-color: grey;
+  background-color: #c9c9c9;
   top: 0;
   bottom: 0;
   left: 50%;
@@ -212,7 +213,7 @@ timeline-body {
   height: 25px;
   right: -17px;
   background-color: white;
-  border: 4px solid #FF9F55;
+  border: 4px solid #006161;
   top: 15px;
   border-radius: 50%;
   z-index: 1;
@@ -266,7 +267,7 @@ timeline-body {
   padding: 20px 30px;
   background-color: rgba(193, 193, 193, 0.24);
   position: relative;
-  border-radius: 6px;
+  border-radius: 10px;
 }
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
