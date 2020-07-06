@@ -60,6 +60,10 @@ textarea {
    Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
    ========================================================================== */
 
+.polis iframe {
+    border: none !important;
+}
+
 body {
     font: 16px/26px Helvetica, Helvetica Neue, Arial;
     display: flex;
@@ -77,7 +81,7 @@ body {
    =================== */
 
 .header-container {
-    border-bottom: 20px solid #006161;
+    border-bottom: 8px solid #d7d7d7;
 }
 
 .main-container {
@@ -86,18 +90,19 @@ body {
 
 
 .footer-container{
-    border-top: 20px solid #006161;
+    border-top: 20px solid #D7D7D7;
 }
 
 .main aside {
-	border-radius: 10px;
-    border-top: 20px solid #006161;
+	border-radius: 4px;
+    border-top: 8px solid #D7D7D7;
+    background: #F2F2F2;
+    margin-top: 1.5rem;
 }
 
 .header-container,
-.footer-container,
-.main aside {
-    background: #003D3D;
+.footer-container {
+    background: #1A1A1A;
 }
 
 .title {
@@ -124,7 +129,7 @@ nav a {
     font-weight: bold;
 
     color: white;
-    background: #003D3D;
+    background: #1A1A1A;
 }
 
 nav a:hover,
@@ -149,7 +154,7 @@ nav a:hover {
 }
 
 .main aside {
-    color: white;
+    color: #222222;
     padding: 0 5% 10px;
 }
 
@@ -216,7 +221,7 @@ timeline-body {
   height: 25px;
   right: -17px;
   background-color: white;
-  border: 4px solid #006161;
+  border: 4px solid #d7d7d7;
   top: 15px;
   border-radius: 50%;
   z-index: 1;
@@ -359,17 +364,6 @@ timeline-body {
 
 @media only screen and (min-width: 768px) {
 
-/* ====================
-    WIDE: CSS3 Effects
-   ==================== */
-
-    .header-container,
-    .main aside {
-        -webkit-box-shadow: 0 5px 10px #aaa;
-           -moz-box-shadow: 0 5px 10px #aaa;
-                box-shadow: 0 5px 10px #aaa;
-    }
-
 /* ============
     WIDE: Menu
    ============ */
@@ -395,6 +389,10 @@ timeline-body {
     .main aside {
         float: right;
         width: 40%;
+    }
+
+    article.full-width {
+        width: 100%;
     }
 }
 
